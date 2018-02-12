@@ -239,6 +239,7 @@ export default class Avatar extends PureComponent {
         const size = this.props.size;
         const hostStyle = this.props.unstyled ? null : {
             display: 'inline-block',
+            verticalAlign: 'middle',
             width: size,
             height: size,
             borderRadius: (this.props.round ? 500 : 0),
